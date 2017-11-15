@@ -1,5 +1,7 @@
 # Cookiecutter: Better Project Templates
 
+![Cookiecutter](images/cookiecutter_medium.png)
+
 Cookiecutter creates projects (python, notebook, js, C++, ...) from project templates in jinja2.
 
 
@@ -116,3 +118,11 @@ print("Hello, {{cookiecutter.full_name}}") # will be replace by print("Hello, pg
 ## Extra
 
 Re-run cookiecutter on an existing versionned project to upgrade to latest template.
+
+```bash
+cookiecutter cookiecutter-presentation/
+# commit projet and change template
+cookiecutter --replay -f cookiecutter-presentation/
+# git st
+cookiecutter -f cookiecutter-presentation/ # no docker
+```

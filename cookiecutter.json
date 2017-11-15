@@ -1,0 +1,12 @@
+{
+    "full_name": "pgranger",
+    "email": "pgranger@elementai.com",
+    "project_name": "project_name",
+    "project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_') }}",
+    "repo_name": "repos-name",
+    "project_short_description": "Shrot description",
+    "year": "2017",
+    "version": "0.1",
+    "licence": ["MIT", "BSD-3", "GNU GPL v3.0", "Apache Software License 2.0"],
+    "use_docker": "y"
+}
